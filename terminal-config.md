@@ -91,6 +91,8 @@ bind-key -n M-7 select-pane -t 7
 bind-key -n M-8 select-pane -t 8
 bind-key -n M-9 select-pane -t 9
 
+bind -n F2 display-popup -w 75% -h 75% -E $SHELL
+
 # Usar teclas de Vim en el modo copia
 set -g mode-keys vi
 
